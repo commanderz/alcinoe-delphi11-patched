@@ -6,10 +6,15 @@
   
 2) add to Delphi11 SEARCH PATH options this path:
   example:
+  
   c:\d11\c\alcinoe-master\source
+  
   c:\d11\c\alcinoe-master\embarcadero\alex\11\patched_fmx;
+  
   c:\d11\c\alcinoe-master\embarcadero\alex\11\patched_rtl\android;
+  
   c:\d11\c\alcinoe-master\embarcadero\alex\11\patched_rtl\ios;
+  
   c:\d11\c\alcinoe-master\embarcadero\alex\11\patched_rtl\win;
   
 3) now you can recompile app for Windows32/windows64/android/ios in Delphi11 Alexandria.
