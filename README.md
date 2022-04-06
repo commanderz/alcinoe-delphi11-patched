@@ -20,7 +20,15 @@
 3) now you can recompile app for Windows32/windows64/android/ios in Delphi11 Alexandria.
   
 p.s. original fmx and rtl files in archive just for see different, if you want to patch it for Delphi 11.1
- 
+
+p.s.s.
+ if you get error like 'was compiled with a different version of':
+ example:
+[DCC Fatal Error] FMX.Platform.iOS.pas(17): F2051 Unit Macapi.MetalKit was compiled with a different version of iOSapi.UIKit.UIViewClass
+
+just add to SEARCH PATH options path to folder with source of that [Macapi.MetalKit.pas], and REBUILD (not recompile) your project.
+and repeat this operation for another and another units.
+
  
 With respect,
 Commanderz
